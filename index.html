@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Lexend:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="page-background" style="background-image: url('/images/main-bg.png')">
+<header class="page-header">
+    <h1>Welcome to Coffee Shop</h1>
+    <h2 class="page-header-secondary">You favorite taste just one click ahead!</h2>
+</header>
+<main class="page-main">
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/img.png">
+        </div>
+        <div class="product-title">Espresso</div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/img_1.png">
+        </div>
+        <div class="product-title">Latte</div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/img_2.png">
+        </div>
+        <div class="product-title">Cappuccino</div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/img_3.png">
+        </div>
+        <div class="product-title">Hot Mocha</div>
+    </div>
+</main>
+<footer class="page-footer">
+    <form action="" class="order-form">
+        <div class="form-field">
+            <label for="order">Order</label>
+            <textarea placeholder="Type you order"
+                      name="order"
+                      id="order"
+                      cols="10"
+                      rows="4">
+        </textarea>
+        </div>
+        <div class="form-field">
+            <label for="orderDate">Delivery date</label>
+            <input type="datetime-local" name="orderDate" id="orderDate">
+        </div>
+
+        <button class="submit-button" type="submit">Order Coffee</button>
+    </form>
+</footer>
+</body>
+</html>

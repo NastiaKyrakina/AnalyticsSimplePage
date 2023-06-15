@@ -1,0 +1,118 @@
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+h1 {
+    color: #2d2002;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+h3 {
+    color: #181818;
+    font-size: 1em;
+}
+
+.page-background {
+    width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header {
+    width: 100vw;
+    height: 120px;
+    background: rgba(250, 235, 215, 0.73);
+    text-align: center;
+    padding: 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+}
+.page-footer {
+    width: 100vw;
+    background: rgba(250, 235, 215, 0.73);
+    padding: 15px;
+    border-radius: 15px 0;
+}
+
+
+.page-main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+}
+
+.product-card {
+    width: 300px;
+    padding: 7px;
+    background: rgba(255, 228, 196, 0.48);
+    border-radius: 50px;
+    margin: 15px;
+    cursor: pointer;
+    transition: background-color 30ms ease-in-out;
+}
+
+.product-card:hover {
+    background: rgb(245, 163, 64);
+}
+
+.product-card:hover .product-title {
+    color: #e3e1d4;
+}
+
+.product-image img {
+    width: 300px;
+    height: 300px;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #7c5706;
+    transition: color 30ms ease-in-out;
+}
+
+.order-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+textarea, input[type="datetime-local"] {
+    border: 1px solid burlywood;
+    background: #e3e1d4;
+    border-radius: 7px;
+    padding: 4px;
+    width: 300px;
+}
+
+.submit-button {
+    display: block;
+    padding: 5px 7px;
+
+    background: rgb(86, 56, 23);
+    color: #e3e1d4;
+    border-radius:  7px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: color, background-color 30ms ease-in-out;
+}
+
+.submit-button:hover {
+    background: rgb(245, 163, 64);
+    color: rgb(68, 34, 21);
+}
