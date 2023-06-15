@@ -28,13 +28,13 @@ h3 {
     padding: 0 15px 15px;
     border-radius: 0 0 15px 15px;
 }
+
 .page-footer {
     width: 100vw;
     background: rgba(250, 235, 215, 0.73);
     padding: 15px;
     border-radius: 15px 0;
 }
-
 
 .page-main {
     padding: 10px;
