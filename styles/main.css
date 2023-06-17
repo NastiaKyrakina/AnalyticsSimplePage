@@ -90,7 +90,7 @@ label {
     padding-bottom: 5px;
 }
 
-textarea, input[type="datetime-local"] {
+textarea, input[type="datetime-local"], select {
     border: 1px solid burlywood;
     background: #e3e1d4;
     border-radius: 7px;

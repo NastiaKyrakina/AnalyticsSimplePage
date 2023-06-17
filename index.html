@@ -57,7 +57,16 @@
 <footer class="page-footer">
     <form action="" class="order-form">
         <div class="form-field">
-            <label for="order">Order</label>
+            <label for="selectedProduct">Select Product</label>
+            <select name="selectedProduct" id="selectedProduct">
+                <option value="espresso">Espresso</option>
+                <option value="latte">Latte</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="hotMocha">Hot Mocha</option>
+            </select>
+        </div>
+        <div class="form-field">
+            <label for="order">Order details</label>
             <textarea placeholder="Type you order"
                       name="order"
                       id="order"
@@ -72,5 +81,6 @@
         <button class="submit-button" type="submit" id="submit-order">Order Coffee</button>
     </form>
 </footer>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
