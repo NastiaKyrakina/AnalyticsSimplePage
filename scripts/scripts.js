@@ -1,10 +1,12 @@
 document.getElementById('selectedProduct')
     .addEventListener('change', (event) => {
         const productName = event.target.value;
-        gtag('event', 'product_selected', {
-            'event_category': 'dropdown',
-            'event_label': productName,
+        dataLayer.push({
+            'event': 'product_selected',
             'value': productName,
-            'send_to': '351246241'
+            'items' : [{
+                'id': '1234',
+                'google_business_vertical': productName
+            }]
         });
 });
